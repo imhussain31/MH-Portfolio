@@ -9592,6 +9592,46 @@ textarea.form-control {
       color: #000000;
       font-style: italic; }
 
+
+      .project-slider .item {
+        text-align: center;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        overflow: hidden;
+    }
+    .project-slider .item img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    .project-slider .item h3 {
+        margin-top: 15px;
+        font-size: 24px;
+        color: #333;
+    }
+    .project-slider .item p {
+        margin-top: 10px;
+        font-size: 16px;
+        color: #777;
+        height: 30px; /* fixed height for descriptions */
+        overflow: hidden; /* truncate overflowing text */
+    }
+    .project-slider .item .btn {
+        margin-top: 15px;
+        padding: 10px 20px;
+        background-color: #00aaff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .project-slider .item .btn:hover {
+        background-color: #0088cc;
+    }
+
 #ftco-loader {
   position: fixed;
   width: 96px;

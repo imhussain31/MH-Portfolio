@@ -21,6 +21,19 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+	<!-- Owl Carousel CSS -->
+ <!-- Owl Carousel CSS -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+     <style>
+		  .single-line-heading {
+            white-space: nowrap; /* Prevents text from wrapping */
+            overflow: hidden;    /* Hides overflowing text */
+            text-overflow: ellipsis; /* Shows ellipsis for overflowing text */
+            width: 100%; /* Ensures it takes the full width of its container */
+        }
+	 </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
@@ -134,99 +147,58 @@
     </section>
 
 	<section class="ftco-section ftco-project" id="projects-section">
-    	<div class="container">
-    		<div class="row justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">My Projects</h2>
-            <p>Where Ideas Come to Life</p>
-          </div>
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <div class="col-md-12 heading-section text-center ftco-animate">
+                    <h1 class="big big-2">Projects</h1>
+                    <h2 class="mb-4">My Projects</h2>
+                    <p>Where Ideas Come to Life</p>
+                </div>
+            </div>
+            <div class="owl-carousel owl-theme project-slider">
+                <div class="item">
+                    <img src="images/app_1.jpg" alt="Mirsarai Blood Bank">
+                    <h3 class="single-line-heading" >Chattogram TutorHub</h3>
+                    <p>Android App</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.mhndroid.chattogramtutorhub" class="btn">BROWSE APP</a>
+                </div>
+                <div class="item">
+                    <img src="images/essentials.webp" alt="English Grammar and Essentials">
+                    <h3 class="single-line-heading" >Summing-Up: Book Summaries</h3>
+                    <p>Android App</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.athirst.essentials" class="btn">BROWSE APP</a>
+                </div>
+                <div class="item">
+                    <img src="images/summing.jpg" alt="Summing-Up: Book Summaries">
+                    <h3 class="single-line-heading" >English Grammar and Essentials</h3>
+                    <p>Android App</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.mhndroid.summingUp" class="btn">BROWSE APP</a>
+                </div>
+
+				<div class="item">
+                    <img src="images/al-huda.png" alt="Al-Huda Islmic app">
+					<h3 class="single-line-heading">Al-Huda Islamic app</h3>                    <p>Android App</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.athirst.al_huda" class="btn">BROWSE APP</a>
+                </div>
+
+				<div class="item">
+                    <img src="images/car.png" alt="Unity Project" height="150px" width="1024px">
+					<h3 class="single-line-heading">Car Racing Game</h3>                    <p>Unity Project</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.athirst.al_huda" class="btn">BROWSE APP</a>
+                </div>
+
+				<div class="item">
+                    <img src="images/namaj.png" alt="Al-Huda Islmic app" height="150px" width="1024px">
+					<h3 class="single-line-heading">অর্থসহ নামাজ শিক্ষা</h3>                    <p>Android App</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.NamajShikkha.namakshikkha" class="btn">BROWSE APP</a>
+                </div>
+                <!-- Add more items as needed -->
+            </div>
         </div>
-    		<div class="row">
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/mblood.png);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-							<h3><a href="https://play.google.com/store/apps/details?id=com.mhndroid.blooddonation">Mirsarai Blood Bank</a></h3>
-
-	    					<span>Android App</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/essentials.webp);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://play.google.com/store/apps/details?id=com.athirst.essentials">English Grammar and Essentials</a></h3>
-	    					<span>Android App</span>
-	    				</div>
-    				</div>
-  				</div>
-
-    			<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/summing.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-							<h3><a href="https://play.google.com/store/apps/details?id=com.mhndroid.summingUp">Summing-Up: Book Summaries</a></h3>
-
-	    					<span>Android App</span>
-	    				</div>
-    				</div>
-
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/car.png);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://github.com/imhussain31/Car-Racing-Unity-Project">Race Track</a></h3>
-	    					<span>Unity Game</span>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-    				<div class="row">
-    					<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/namaj.png);">
-		    					<div class="overlay"></div>
-			    				<div class="text text-center p-4">
-			    					<h3><a href="https://play.google.com/store/apps/details?id=com.NamajShikkha.namakshikkha">অর্থসহ নামাজ শিক্ষা</a></h3>
-			    					<span>Android App</span>
-			    				</div>
-		    				</div>
-	    				</div>
-	    				<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
-		    					<div class="overlay"></div>
-			    				<div class="text text-center p-4">
-			    					<h3><a href="https://github.com/imhussain31/Laravel-Assignment-Submission-systemc:\Users\LENOVO\Downloads\car.webp">Assignment Submission System</a></h3>
-			    					<span>Website </span>
-			    				</div>
-		    				</div>
-	    				</div>
-    				</div>
-    			</div>
-
-				<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/allah.png);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-							<h3><a href="https://play.google.com/store/apps/details?id=com.mhndroid.asmuulhusna">Al Asma Ul Husna</a></h3>
-
-	    					<span>Android App</span>
-	    				</div>
-    				</div>
-  				</div>
-  				<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/al-huda.png);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://play.google.com/store/apps/details?id=com.athirst.al_huda">Al-Huda</a></h3>
-	    					<span>Android App</span>
-	    				</div>
-    				</div>
-  				</div>
-    		</div>
-    	</div>
     </section>
 
+
+	
 
 		
 		<section class="ftco-section" id="skills-section">
@@ -580,6 +552,34 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".project-slider").owlCarousel({
+                items: 4,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                nav: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
     
   </body>
 </html>
